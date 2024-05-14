@@ -43,9 +43,9 @@ Feature: Lab2 iths Web
     When user clicks Common questions button in header
     Then the last breadcrumbs should be "Vanliga frågor"
 
-    Scenario: user should see heading with text
-      When user clicks openHouse button in header
-      Then user should see a heading "Välkommen till vårens informationsträffar"
+  Scenario: user should see heading with text
+    When user clicks openHouse button in header
+    Then user should see a heading "Välkommen till vårens informationsträffar"
 
-      Scenario: this is a successful test
-        Then it will be successful
+  Scenario: this is a successful test
+    Then it will be successful
