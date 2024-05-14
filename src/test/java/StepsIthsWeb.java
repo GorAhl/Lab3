@@ -4,6 +4,8 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 
+import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -130,6 +132,12 @@ public class StepsIthsWeb {
         actions.moveToElement(headerButton).perform();
         WebElement subHeaderElement = headerElement.findElement(By.id("nav-ppethus"));
         subHeaderElement.click();
+    }
+
+
+    @Then("it will be successful")
+    public void it_will_be_successful() {
+        Assertions.assertTrue(true);
     }
 
     @After

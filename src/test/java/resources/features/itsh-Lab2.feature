@@ -46,3 +46,6 @@ Feature: Lab2 iths Web
     Scenario: user should see heading with text
       When user clicks openHouse button in header
       Then user should see a heading "Välkommen till vårens informationsträffar"
+
+      Scenario: this is a successful test
+        Then it will be successful
