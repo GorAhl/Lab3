@@ -136,7 +136,7 @@ public class StepsIthsWeb {
     }
     @Then("it will be something")
     public void it_will_be_something() {
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
     }
     @After
     public void quitDriver(){
