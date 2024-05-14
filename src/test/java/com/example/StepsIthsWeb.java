@@ -136,6 +136,7 @@ public class StepsIthsWeb {
     }
     @Then("it will be something")
     public void it_will_be_something() {
+        String ditten = "datten";
         Assertions.assertTrue(false);
     }
     @After
