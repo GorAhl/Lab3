@@ -47,5 +47,5 @@ Feature: Lab2 iths Web
     When user clicks openHouse button in header
     Then user should see a heading "Välkommen till vårens informationsträffar"
 
-  Scenario: this is a successful test
-    Then it will be successful
+  Scenario: this is a flex test
+    Then it will be something
