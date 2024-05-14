@@ -137,7 +137,7 @@ public class StepsIthsWeb {
 
     @Then("it will be successful")
     public void it_will_be_successful() {
-        Assertions.assertTrue(true);
+        Assertions.assertTrue(false);
     }
 
     @After
